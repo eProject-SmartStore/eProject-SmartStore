@@ -24,6 +24,68 @@ body {
     z-index: 1000;
 }
 
+/*header */
+#header {
+    width: 1200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#header .logo {
+    float: left;
+    margin: 0px;
+}
+
+#header .up {
+    display: flex;
+}
+
+#header .search {
+    display: flex;
+}
+
+#header .search-icon {
+    margin: 25px 0px 20px 5px;
+
+}
+
+#header input[type="text"] {
+    width: 500px;
+    padding: 8px;
+    border: 1px solid rgb(153, 153, 153);
+    appearance: none;
+    font-size: 16px;
+    outline: none;
+    border-radius: 3px 0px 0px;
+    margin: 20px 0px 20px 0px;
+}
+
+#header .list ul {
+    display: flex;
+    border-top: solid 1px #003f62;
+    border-bottom: solid 1px #003f62;
+    padding: 5px;
+}
+
+#header .icon {
+    margin: 20px 0px 20px 0px;
+    
+}
+
+#header .icon a {
+    padding: 10px;
+}
+
+#header .list li {
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+#header .list li:hover {
+    opacity: 1;
+
+}
+
 
 /*Big Topic */
 #wrapper{
@@ -51,7 +113,32 @@ body {
     height: 450px;
     width: 100%;
     margin-top: 5px;
-    float: left;
+}
+
+/* Related products */
+#related-products {
+    width: 1200px;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+}
+
+#related-products div.one{
+    margin: auto;
+    background-color: rgb(190, 219, 236);
+    
+}
+#related-products p.two {
+    margin-top: -6px;
+    color: rgb(55, 20, 255);
+    font-size: 25px;
+}
+#related-products div.one.version2 {
+    background-color: rgb(190, 219, 236);
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* event */
@@ -147,6 +234,31 @@ a {
         transform: translateY(0);
     }
 }
+
+/* now trending */ 
+#now-trending {
+    text-align: center;
+    background-color: #ccc;
+    width: 1200px;
+}
+
+#now-trending div.one{
+    margin-right: 10px;
+    display: flex;
+
+}
+#now-trending div.one.vosion2{
+/* border: 5px inset deeppink; */
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow-x: hidden;
+}
+#now-trending h1{
+    padding-top: 15px;
+}
+
+
 
 #wrapper-items{
     width: 1200px;
